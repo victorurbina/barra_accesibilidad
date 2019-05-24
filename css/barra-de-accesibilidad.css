@@ -12,7 +12,7 @@
 }
 
 #accesibilidad-background{
-    background-color:#546c98; 
+    background-color:#547790; 
     display:block;
     position: fixed;
     top:0;
@@ -25,7 +25,7 @@
     max-width:1140px; /*Setear el ancho del sitio acá. El fondo de la barra es full width, pero el texto, tendrá este ancho.*/
     margin:0 auto 0 auto;
     line-height: 53px;
-    background-color:#546c98; 
+    background-color:#547790; 
     font-size:12px;
     font-weight:normal;
     text-align: right;
@@ -363,7 +363,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .barra-de-accesibilidad-informacion h1 {
-    color:#546C98;
+    color:#547790;
     font-size: 24px;
     text-transform: uppercase;  
     margin-bottom: 23px;  
@@ -386,7 +386,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .encabezado_ayuda {
-    border-bottom: 1px solid #546C98;
+    border-bottom: 1px solid #547790;
     text-align: right;
 }
 
@@ -424,16 +424,16 @@ input[type=range]:focus::-ms-fill-upper {
     background-repeat: no-repeat;
 }
 .ol-herramientas li[data-type="herram-1"]{
- background-image:url(/images/circulo-vinetas-1.png); 
+ background-image:url(./images/circulo-vinetas-1.png); 
 }
 .ol-herramientas li[data-type="herram-2"]{
- background-image:url(/images/circulo-vinetas-2.png); 
+ background-image:url(./images/circulo-vinetas-2.png); 
 }
 .ol-herramientas li[data-type="herram-3"]{
- background-image:url(/images/circulo-vinetas-3.png); 
+ background-image:url(./images/circulo-vinetas-3.png); 
 }
 .ol-herramientas li[data-type="herram-4"]{
- background-image:url(/images/circulo-vinetas-4.png); 
+ background-image:url(./images/circulo-vinetas-4.png); 
 }
 
 /* Formulario */

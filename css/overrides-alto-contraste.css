@@ -1,9 +1,10 @@
 body{
     /* Ejemplo para probar la funcionalidad en entorno de desarrollo */
     background-color:black !important;
+    color: white;
 }
 
 #accesibilidad-background {
-	/* Ejemplo para probar la funcionalidad en entorno de desarrollo */
-    border-bottom: 60px solid #bb7f9e;
+    /* Ejemplo para probar la funcionalidad en entorno de desarrollo */
+    border-bottom: 30px solid #f0b61f;
 }

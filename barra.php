@@ -90,7 +90,7 @@ Nosotros damos soporte hasta IE9 incluído.
 </style>
 
 <?php // incluir css de la barra de accesibilidad ?>
-    <link rel="stylesheet" type="text/css" href="./css/barra-de-accesibilidad.css">  
+<link rel="stylesheet" type="text/css" href="./css/barra-de-accesibilidad.css">  
 
     <?php //este noscript muestra un mensaje en caso en que javascript esté desactivado, y desabilita las Opciones
     //de la barra que necesitan javascript.
@@ -113,16 +113,17 @@ Nosotros damos soporte hasta IE9 incluído.
 <?php // HTML de la barra de accesibilidad  ?>
 <div id="accesibilidad-background">
 <div id="barra-accesibilidad">
-
 <ul id="ul-barra-accesibilidad">
+    
+    
     <li><a href="#contenido_principal" class="esconder">Saltar al Contenido principal</a></li>
 
     <li><a href="#navegacion"><span class="esconder">Saltar a Navegación</span></a></li>
 
-    <li class="barra-accesibilidad-esconder-items-en-movil"><?php // slider de tamaño de fuente ?>Tamaño
+    <li class="barra-accesibilidad-esconder-items-en-movil"><?php // slider de tamaño de fuente ?>Texto
 
         <a href="#" id="minima-magnificacion"><span class="esconder">Haga click en la siguiente imagen para minimizar la magnificación.</span>
-            <img src="./images/icono-zoom-minimo.svg" alt="Icono de magnificación mínima." width="13" height="36">
+            A-<img src="./images/icono-zoom-minimo.svg" alt="Icono de magnificación mínima." width="13" height="36">
         </a>
 
         <label class="label-tipografia-slider" for="tipografia-slider"><span class="esconder">
@@ -134,7 +135,7 @@ Nosotros damos soporte hasta IE9 incluído.
 
         <a href="#" id="maxima-magnificacion">
             <span class="esconder">Haga click en la siguiente imagen para maximizar la magnificación.</span>
-            <img src="./images/icono-zoom-maximo.svg" alt="Icono de magnificación máxima." width="27" height="36">
+            A+<img src="./images/icono-zoom-maximo.svg" alt="Icono de magnificación máxima." width="27" height="36">
         </a>
     </li>
 
