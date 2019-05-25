@@ -24,16 +24,20 @@
         </div>
         
         <div class="col-sm-12">
-            <div class="col-sm-6 col-lg-6">
-                <img src="./images/uda.png" alt="Logo Universidad de Atacama" width="30%" height="30%">     
+            <div class="col-sm-4 col-lg-4"><br>
+                <img src="./images/uda.png" alt="Logo Universidad de Atacama" width="50%" height="50%">     
             </div>
 
-            <div class="col-sm-6 col-lg-6">
-                <h1>Titulo</h1> <h2>Subtitulo</h2>   
+            <div class="col-sm-4 col-lg-4">
+                <h2>Subtitulo</h2>   
+            </div>
+            
+            <div class="col-sm-4 col-lg-4">
+                <h2>Subtitulo</h2>   
             </div>
         </div>
         
-        <div class="col col-sm-6" id="container-accesibilidad-zoom"> 
+        <div class="col col-sm-12" id="container-accesibilidad-zoom"> 
 
             <div class="barra-de-accesibilidad-informacion">
                 <div role="main" id="contenido_principal" class="col col-sm-12">

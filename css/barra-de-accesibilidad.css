@@ -12,7 +12,8 @@
 }
 
 #accesibilidad-background{
-    background-color:#547790; 
+    background-color:#547790;
+    border-bottom: 10px solid #f0b61f;
     display:block;
     position: fixed;
     top:0;
@@ -42,7 +43,7 @@
     -ms-transform: scale(1.4); /* IE 9 */
     -webkit-transform: scale(1.4); /* Safari */
     transform-origin: center top;
-    max-width:60% !important;/*proporcion con el scale para que el zoom no supere el 100%, que no haya overflow */
+    max-width:65% !important;/*proporcion con el scale para que el zoom no supere el 100%, que no haya overflow */
     border-radius:0 0 8px 8px;
     padding-left: 30px;
     overflow: visible;
@@ -350,8 +351,8 @@ input[type=range]:focus::-ms-fill-upper {
     padding: 25px;
     padding-top:10px;
     max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .barra-de-accesibilidad-informacion ol li {
